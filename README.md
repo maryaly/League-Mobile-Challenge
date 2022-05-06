@@ -1,5 +1,5 @@
 # android-code-challenge
-This repo is for the Android coding interview for new developers :)
+I have did League code challenge project in KOTLIN language 
+I have used #MVVM - #Hilt - #Coroutines - #Flow - #Glide - #LiveData - #Navigation Component - #Pagination and #SwipeRefreshLayout
 
-Candidates:
-Please put build instructions, assumptions and any other notes that you'd like your reviewers to know about in this file
+I wish you enjoy that
