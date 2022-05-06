@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Mobile Coding Challenge</string>
+  <string name="no_internet_connection">Internet access is not available</string>
+  <string name="error_general">An error has occurred in the system</string>
+  <string name="users">Users</string>
+  <string name="posts">Posts</string>
+
+
+</resources>

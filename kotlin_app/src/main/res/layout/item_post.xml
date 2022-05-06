@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout_itemPost"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_itemPost_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/gray11"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_itemPost_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:textColor="@color/gray1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_itemPost_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="@dimen/_10dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
